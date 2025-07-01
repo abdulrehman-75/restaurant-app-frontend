@@ -1,12 +1,72 @@
-# React + Vite
+Restaurant App — Full Stack CRUD Application
+This is a full-stack web application that demonstrates CRUD operations using a modern tech stack. The project includes a React frontend, an ASP.NET Core Web API backend, and a PostgreSQL database hosted on Railway.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+Frontend:
+https://restaurant-app-frontend-mu.vercel.app/ (Hosted on Vercel)
 
-Currently, two official plugins are available:
+Backend Base URL:
+restaurant-app-backend20250701082739-e8febqb5epdufrgx.canadacentral-01.azurewebsites.net/api/ (Hosted on Azure)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+Frontend:
 
-## Expanding the ESLint configuration
+React (Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Material UI
+
+Backend:
+
+ASP.NET Core Web API
+
+Entity Framework Core
+
+PostgreSQL (Hosted on Railway)
+
+API Endpoints
+Base URL:
+https://restaurant-app-backend20250701082739-e8febqb5epdufrgx.canadacentral-01.azurewebsites.net/api/
+
+Endpoints:
+
+/order – Create, retrieve, and manage orders
+
+/customer – View predefined customer list
+
+/foodItem – View predefined food items
+
+Functionality
+Displays predefined lists of:
+
+Customers
+
+Food Items
+
+Create and manage:
+
+Orders, which include:
+
+OrderMaster (main order info)
+
+OrderDetails (line items referencing Food Items via foreign key)
+
+Orders are shown in a dashboard for easy tracking
+
+Full CRUD functionality for orders and related items
+
+Database
+Hosted on Railway
+
+PostgreSQL
+
+Includes seed data for Customers and Food Items
+
+Project Highlights
+Clean frontend-backend separation
+
+Real-time CRUD operations
+
+Foreign key relationships for order details
+
+Fully deployed and accessible online
+
